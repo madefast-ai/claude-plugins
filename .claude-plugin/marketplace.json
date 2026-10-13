@@ -9,22 +9,26 @@
   "plugins": [
     {
       "name": "cc",
-      "source": { "source": "github", "repo": "madefast-ai/claude-code-setup" },
+      "source": {
+        "source": "github",
+        "repo": "madefast-ai/claude-code-setup"
+      },
       "description": "Generates and maintains a complete Claude Code setup (CLAUDE.md, rules, agents, commands, guard hook) for any project, from a brief and/or the existing code, and keeps it upgradable."
     },
     {
-      "name": "leads",
-      "source": { "source": "git-subdir", "url": "https://github.com/madefast-ai/lead-finder-plugin.git", "path": "leads" },
-      "description": "Lead Finder: find B2B leads on LinkedIn, Reddit and Instagram, engage with them in public, see who engages back, and prepare the offer for a call when they're interested. Your leads stay in a workbook on your computer."
-    },
-    {
       "name": "mradik",
-      "source": { "source": "github", "repo": "madefast-ai/mradik-plugin" },
+      "source": {
+        "source": "github",
+        "repo": "madefast-ai/mradik-plugin"
+      },
       "description": "MRADiK: lets Claude Code ask other local repositories questions through a read-only agent running in each of them."
     },
     {
       "name": "madefast-tools",
-      "source": { "source": "github", "repo": "madefast-ai/madefast-tools" },
+      "source": {
+        "source": "github",
+        "repo": "madefast-ai/madefast-tools"
+      },
       "description": "Madefast bottom bar, tools panel and Clean View: mradik registration, current task, fleet, backlog, agents, usage."
     }
   ]
